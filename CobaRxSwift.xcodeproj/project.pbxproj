@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F12BE8B711BAD4AFC2C6DF /* Pods_CobaRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8228204506395345C31DFA32 /* Pods_CobaRxSwift.framework */; };
+		74054B672765E64100BC23E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054B662765E64100BC23E9 /* AppDelegate.swift */; };
+		74054B6E2765E64100BC23E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74054B6C2765E64100BC23E9 /* Main.storyboard */; };
+		74054B712765E64100BC23E9 /* CobaRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74054B6F2765E64100BC23E9 /* CobaRxSwift.xcdatamodeld */; };
+		74054B732765E64200BC23E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74054B722765E64200BC23E9 /* Assets.xcassets */; };
+		74054B762765E64200BC23E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74054B742765E64200BC23E9 /* LaunchScreen.storyboard */; };
+		74054BB52765E97F00BC23E9 /* ListCartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BAF2765E97F00BC23E9 /* ListCartTableView.swift */; };
+		74054BB62765E97F00BC23E9 /* ListCartTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BB02765E97F00BC23E9 /* ListCartTableView.xib */; };
+		74054BB72765E97F00BC23E9 /* NotFoundTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BB12765E97F00BC23E9 /* NotFoundTableView.xib */; };
+		74054BB82765E97F00BC23E9 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BB22765E97F00BC23E9 /* ListCollectionViewCell.swift */; };
+		74054BB92765E97F00BC23E9 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BB32765E97F00BC23E9 /* ListCollectionViewCell.xib */; };
+		74054BBA2765E97F00BC23E9 /* NotFoundCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BB42765E97F00BC23E9 /* NotFoundCollectionView.xib */; };
+		74054BC02765E99700BC23E9 /* ListCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BBE2765E99700BC23E9 /* ListCartModel.swift */; };
+		74054BC12765E99700BC23E9 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BBF2765E99700BC23E9 /* ListModel.swift */; };
+		74054BC52765E9A700BC23E9 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BC42765E9A700BC23E9 /* ListViewModel.swift */; };
+		74054BCD2765E9BD00BC23E9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BC82765E9BD00BC23E9 /* Globals.swift */; };
+		74054BCE2765E9BD00BC23E9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BC92765E9BD00BC23E9 /* Coordinator.swift */; };
+		74054BCF2765E9BD00BC23E9 /* InisiateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BCA2765E9BD00BC23E9 /* InisiateView.swift */; };
+		74054BD02765E9BD00BC23E9 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BCB2765E9BD00BC23E9 /* MainCoordinator.swift */; };
+		74054BD12765E9BD00BC23E9 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BCC2765E9BD00BC23E9 /* NetworkingClient.swift */; };
+		74054BD82765E9DE00BC23E9 /* ListCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BD42765E9DE00BC23E9 /* ListCartViewController.xib */; };
+		74054BD92765E9DE00BC23E9 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74054BD52765E9DE00BC23E9 /* ListViewController.xib */; };
+		74054BDA2765E9DE00BC23E9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BD62765E9DE00BC23E9 /* ListViewController.swift */; };
+		74054BDB2765E9DE00BC23E9 /* ListCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74054BD72765E9DE00BC23E9 /* ListCartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74054B632765E64100BC23E9 /* CobaRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CobaRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74054B662765E64100BC23E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74054B6D2765E64100BC23E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74054B702765E64100BC23E9 /* CobaRxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CobaRxSwift.xcdatamodel; sourceTree = "<group>"; };
+		74054B722765E64200BC23E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74054B752765E64200BC23E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74054B772765E64200BC23E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74054BAF2765E97F00BC23E9 /* ListCartTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCartTableView.swift; sourceTree = "<group>"; };
+		74054BB02765E97F00BC23E9 /* ListCartTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCartTableView.xib; sourceTree = "<group>"; };
+		74054BB12765E97F00BC23E9 /* NotFoundTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotFoundTableView.xib; sourceTree = "<group>"; };
+		74054BB22765E97F00BC23E9 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		74054BB32765E97F00BC23E9 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		74054BB42765E97F00BC23E9 /* NotFoundCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotFoundCollectionView.xib; sourceTree = "<group>"; };
+		74054BBE2765E99700BC23E9 /* ListCartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCartModel.swift; sourceTree = "<group>"; };
+		74054BBF2765E99700BC23E9 /* ListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		74054BC42765E9A700BC23E9 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		74054BC82765E9BD00BC23E9 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		74054BC92765E9BD00BC23E9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		74054BCA2765E9BD00BC23E9 /* InisiateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InisiateView.swift; sourceTree = "<group>"; };
+		74054BCB2765E9BD00BC23E9 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		74054BCC2765E9BD00BC23E9 /* NetworkingClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		74054BD42765E9DE00BC23E9 /* ListCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCartViewController.xib; sourceTree = "<group>"; };
+		74054BD52765E9DE00BC23E9 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		74054BD62765E9DE00BC23E9 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		74054BD72765E9DE00BC23E9 /* ListCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCartViewController.swift; sourceTree = "<group>"; };
+		8228204506395345C31DFA32 /* Pods_CobaRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CobaRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7E649916FF5B3D9A98ABB2 /* Pods-CobaRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-CobaRxSwift/Pods-CobaRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F64ED371200C85B460B750 /* Pods-CobaRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CobaRxSwift.release.xcconfig"; path = "Target Support Files/Pods-CobaRxSwift/Pods-CobaRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74054B602765E64100BC23E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F12BE8B711BAD4AFC2C6DF /* Pods_CobaRxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74054B5A2765E64100BC23E9 = {
+			isa = PBXGroup;
+			children = (
+				74054B652765E64100BC23E9 /* CobaRxSwift */,
+				74054B642765E64100BC23E9 /* Products */,
+				7DB8B6FC7395913F8D8DCAFE /* Pods */,
+				C8357FCB4ED04414F79216B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74054B642765E64100BC23E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74054B632765E64100BC23E9 /* CobaRxSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74054B652765E64100BC23E9 /* CobaRxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				74054BD32765E9D100BC23E9 /* Views */,
+				74054BC72765E9AE00BC23E9 /* Helpers */,
+				74054BC32765E99B00BC23E9 /* ViewModels */,
+				74054BBC2765E98300BC23E9 /* Models */,
+				74054BAE2765E96C00BC23E9 /* Cells */,
+				74054B662765E64100BC23E9 /* AppDelegate.swift */,
+				74054B6C2765E64100BC23E9 /* Main.storyboard */,
+				74054B722765E64200BC23E9 /* Assets.xcassets */,
+				74054B742765E64200BC23E9 /* LaunchScreen.storyboard */,
+				74054B772765E64200BC23E9 /* Info.plist */,
+				74054B6F2765E64100BC23E9 /* CobaRxSwift.xcdatamodeld */,
+			);
+			path = CobaRxSwift;
+			sourceTree = "<group>";
+		};
+		74054BAE2765E96C00BC23E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74054BAF2765E97F00BC23E9 /* ListCartTableView.swift */,
+				74054BB02765E97F00BC23E9 /* ListCartTableView.xib */,
+				74054BB22765E97F00BC23E9 /* ListCollectionViewCell.swift */,
+				74054BB32765E97F00BC23E9 /* ListCollectionViewCell.xib */,
+				74054BB42765E97F00BC23E9 /* NotFoundCollectionView.xib */,
+				74054BB12765E97F00BC23E9 /* NotFoundTableView.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		74054BBC2765E98300BC23E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74054BBE2765E99700BC23E9 /* ListCartModel.swift */,
+				74054BBF2765E99700BC23E9 /* ListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74054BC32765E99B00BC23E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74054BC42765E9A700BC23E9 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74054BC72765E9AE00BC23E9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				74054BC92765E9BD00BC23E9 /* Coordinator.swift */,
+				74054BC82765E9BD00BC23E9 /* Globals.swift */,
+				74054BCA2765E9BD00BC23E9 /* InisiateView.swift */,
+				74054BCB2765E9BD00BC23E9 /* MainCoordinator.swift */,
+				74054BCC2765E9BD00BC23E9 /* NetworkingClient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74054BD32765E9D100BC23E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74054BD72765E9DE00BC23E9 /* ListCartViewController.swift */,
+				74054BD42765E9DE00BC23E9 /* ListCartViewController.xib */,
+				74054BD62765E9DE00BC23E9 /* ListViewController.swift */,
+				74054BD52765E9DE00BC23E9 /* ListViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DB8B6FC7395913F8D8DCAFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC7E649916FF5B3D9A98ABB2 /* Pods-CobaRxSwift.debug.xcconfig */,
+				D4F64ED371200C85B460B750 /* Pods-CobaRxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8357FCB4ED04414F79216B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8228204506395345C31DFA32 /* Pods_CobaRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74054B622765E64100BC23E9 /* CobaRxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74054B7A2765E64200BC23E9 /* Build configuration list for PBXNativeTarget "CobaRxSwift" */;
+			buildPhases = (
+				643A0E8BBF850198E1E3ABEA /* [CP] Check Pods Manifest.lock */,
+				74054B5F2765E64100BC23E9 /* Sources */,
+				74054B602765E64100BC23E9 /* Frameworks */,
+				74054B612765E64100BC23E9 /* Resources */,
+				B35A641DF874FD3CE7B296D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CobaRxSwift;
+			productName = CobaRxSwift;
+			productReference = 74054B632765E64100BC23E9 /* CobaRxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74054B5B2765E64100BC23E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					74054B622765E64100BC23E9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 74054B5E2765E64100BC23E9 /* Build configuration list for PBXProject "CobaRxSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74054B5A2765E64100BC23E9;
+			productRefGroup = 74054B642765E64100BC23E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74054B622765E64100BC23E9 /* CobaRxSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74054B612765E64100BC23E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74054BD82765E9DE00BC23E9 /* ListCartViewController.xib in Resources */,
+				74054BB72765E97F00BC23E9 /* NotFoundTableView.xib in Resources */,
+				74054BBA2765E97F00BC23E9 /* NotFoundCollectionView.xib in Resources */,
+				74054B762765E64200BC23E9 /* LaunchScreen.storyboard in Resources */,
+				74054BB92765E97F00BC23E9 /* ListCollectionViewCell.xib in Resources */,
+				74054BD92765E9DE00BC23E9 /* ListViewController.xib in Resources */,
+				74054B732765E64200BC23E9 /* Assets.xcassets in Resources */,
+				74054B6E2765E64100BC23E9 /* Main.storyboard in Resources */,
+				74054BB62765E97F00BC23E9 /* ListCartTableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		643A0E8BBF850198E1E3ABEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CobaRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B35A641DF874FD3CE7B296D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CobaRxSwift/Pods-CobaRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CobaRxSwift/Pods-CobaRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CobaRxSwift/Pods-CobaRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74054B5F2765E64100BC23E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74054BC02765E99700BC23E9 /* ListCartModel.swift in Sources */,
+				74054BB52765E97F00BC23E9 /* ListCartTableView.swift in Sources */,
+				74054BDB2765E9DE00BC23E9 /* ListCartViewController.swift in Sources */,
+				74054BCF2765E9BD00BC23E9 /* InisiateView.swift in Sources */,
+				74054BC52765E9A700BC23E9 /* ListViewModel.swift in Sources */,
+				74054B712765E64100BC23E9 /* CobaRxSwift.xcdatamodeld in Sources */,
+				74054BD02765E9BD00BC23E9 /* MainCoordinator.swift in Sources */,
+				74054BCD2765E9BD00BC23E9 /* Globals.swift in Sources */,
+				74054BC12765E99700BC23E9 /* ListModel.swift in Sources */,
+				74054BD12765E9BD00BC23E9 /* NetworkingClient.swift in Sources */,
+				74054BB82765E97F00BC23E9 /* ListCollectionViewCell.swift in Sources */,
+				74054B672765E64100BC23E9 /* AppDelegate.swift in Sources */,
+				74054BDA2765E9DE00BC23E9 /* ListViewController.swift in Sources */,
+				74054BCE2765E9BD00BC23E9 /* Coordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74054B6C2765E64100BC23E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74054B6D2765E64100BC23E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74054B742765E64200BC23E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74054B752765E64200BC23E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74054B782765E64200BC23E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74054B792765E64200BC23E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74054B7B2765E64200BC23E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7E649916FF5B3D9A98ABB2 /* Pods-CobaRxSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82C4QCH6GL;
+				INFOPLIST_FILE = CobaRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdy.CobaRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74054B7C2765E64200BC23E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F64ED371200C85B460B750 /* Pods-CobaRxSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82C4QCH6GL;
+				INFOPLIST_FILE = CobaRxSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferdy.CobaRxSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74054B5E2765E64100BC23E9 /* Build configuration list for PBXProject "CobaRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74054B782765E64200BC23E9 /* Debug */,
+				74054B792765E64200BC23E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74054B7A2765E64200BC23E9 /* Build configuration list for PBXNativeTarget "CobaRxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74054B7B2765E64200BC23E9 /* Debug */,
+				74054B7C2765E64200BC23E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74054B6F2765E64100BC23E9 /* CobaRxSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74054B702765E64100BC23E9 /* CobaRxSwift.xcdatamodel */,
+			);
+			currentVersion = 74054B702765E64100BC23E9 /* CobaRxSwift.xcdatamodel */;
+			path = CobaRxSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74054B5B2765E64100BC23E9 /* Project object */;
+}

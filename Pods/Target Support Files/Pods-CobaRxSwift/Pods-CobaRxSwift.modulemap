@@ -1,0 +1,6 @@
+framework module Pods_CobaRxSwift {
+  umbrella header "Pods-CobaRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
